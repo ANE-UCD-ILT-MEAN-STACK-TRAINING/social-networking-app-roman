@@ -1,6 +1,8 @@
 # MeanCourse
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+
+Use npm i to install all packages first
 
 ## Development server
 
