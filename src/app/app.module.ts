@@ -18,6 +18,8 @@ import { PostListComponent } from './posts/post-list/post-list.component';
 import { HttpClientModule } from "@angular/common/http";
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 
+import { ReactiveFormsModule } from "@angular/forms";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatToolbarModule,
     MatExpansionModule,
     HttpClientModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
